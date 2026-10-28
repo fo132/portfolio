@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+    <style>
+        body {
+            /* Restored dark charcoal/slate gradient background */
+            background: linear-gradient(135deg, #4a5568, #2d3748);
+            background-attachment: fixed;
+            color: #f7fafc;
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        /* Profile picture styling */
+        .profile-pic {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #63b3ed;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, border-color 0.3s ease;
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.08);
+            border-color: #feb2b2;
+        }
+
+        h1 {
+            color: #90cdf4;
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: #feb2b2;
+        }
+
+        p {
+            font-size: 16px;
+            color: #edf2f7;
+        }
+
+        .location {
+            color: #cbd5e0;
+            font-style: italic;
+            margin-top: 0;
+        }
+
+        hr {
+            width: 80%;
+            margin: 20px auto;
+            border: 0;
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        /* Interactive glass-style section cards */
+        .section-card {
+            background-color: rgba(255, 255, 255, 0.08);
+            backdrop-filter: blur(5px);
+            padding: 20px;
+            border-radius: 12px;
+            margin: 20px auto;
+            max-width: 700px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.3s ease;
+        }
+
+        .section-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+            background-color: rgba(255, 255, 255, 0.12);
+        }
+
+        /* Interactive link styling */
+        a {
+            color: #90cdf4;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.2s ease;
+        }
+
+        a:hover {
+            color: #feb2b2;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Profile Picture -->
+    <img src="https://via.placeholder.com/130" alt="Favour Elijah Profile Picture" class="profile-pic">
+
+    <h1>Hello I'm Favour Elijah</h1>
+    <p class="location">Based in Bradford, UK</p> 
+    <p>Hello! Welcome to my personal portfolio. I am an undergraduate student focused on computing, and system.</p>
+
+<hr>
+
+    <div class="section-card">
+        <h2>About Me</h2>
+        <p>I am currently studying Computer Science in Cyber Security at the University of Bradford. I am interested in network security, system administration, and building simple, efficient software applications.</p>    
+    </div>
+
+<hr>
+
+    <div class="section-card">
+        <h2>Education & Academic Focus</h2>
+        <p><strong>University of Bradford</strong> (2026 - Present)<br>
+        BSc Computer Science in Cyber Security<br>
+        <em>Key Focus Areas: Computer Structure, Network Basics, Principles of Security, Software Development</em></p>
+    </div>
+
+<hr>
+
+    <div class="section-card">
+        <h2>Academic Projects</h2>
+        <p><strong>Personal Web Development Project</strong> (2026)<br>
+        Designed a clean, responsive webpage using HTML and CSS in VS Code for an assignment</p>
+    </div>
+
+<hr>
+
+    <div class="section-card">
+        <h2>Contact Information</h2>
+        <p>Email: <a href="mailto:f.o.elijah@bradford.ac.uk">f.o.elijah@bradford.ac.uk</a></p>
+        <p>University: University of Bradford, West Yorkshire, UK</p>
+    </div>
+
+</body>
+</html>
